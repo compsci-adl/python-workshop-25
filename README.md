@@ -26,5 +26,5 @@ This workshop introduces the fundamentals of Python programming and demonstrates
 ### Using Google Colab
 
 1. Open [Google Colab](https://colab.research.google.com/).
-2. Upload the notebook you want to use (`.ipynb` file).
+2. Either paste this repo link https://github.com/compsci-adl/python-workshop-25 or manually upload the notebook you want to use (`.ipynb` file).
 3. Run each cell in order to practice or see solutions.
