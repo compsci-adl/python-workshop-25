@@ -1,0 +1,14 @@
+[project]
+name = "python-workshop-25"
+version = "1.0.0"
+description = "This workshop introduces the fundamentals of Python programming and demonstrates how it can be used across different domains."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "cryptography>=45.0.7",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.6",
+    "numpy>=2.3.2",
+    "pandas>=2.3.2",
+    "scapy>=2.6.1",
+]

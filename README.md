@@ -8,18 +8,28 @@ This workshop introduces the fundamentals of Python programming and demonstrates
 
 ## Instructions
 
-### Using Conda
+### Using uv
 
-1. Create a new environment (optional but recommended):
+1. Install `uv` if not already installed:
 
-   ```bash
-   conda create -n python_workshop python=3.12 -y
-   conda activate python_workshop
-   ```
+    Linux, macOS, Windows (WSL)
+    ```bash
+    curl -LsSf https://astral.sh/uv/install.sh | sh
+    ```
+    Windows (Powershell)
+    ```powershell
+    powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+    ```
+
+2. Install dependencies:
+
+    ```sh
+    uv sync
+    ```
 2. Launch Jupyter Notebook:
 
    ```bash
-   jupyter notebook
+   uv run jupyter notebook
    ```
 3. Open any of the three notebooks and run the cells.
 
